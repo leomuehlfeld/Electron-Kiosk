@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="keyboard/keyboard.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"rel="stylesheet">
+    <meta charset="UTF-8">
+    <title>Electron Kiosk</title>
+    <style media="screen">
+      body{
+        background-color: black;
+      }
+      .use-keyboard-input {
+        font-family: GraphikMedium, sans-serif;
+        background-color: white;
+        color: black;
+        font-size: 80px;
+        width: 80%;
+        padding: 20px 27px 12px;
+        border: 2px solid white;
+        box-sizing: border-box;
+        border-radius: 4px;
+        outline: none;
+        display: block;
+        margin: 70px auto 0;
+        -webkit-user-select: none;
+      }
+    </style>
+  </head>
+
+  <body>
+    <input
+      id="disable-select"
+      class="use-keyboard-input"
+      type="text"
+      placeholder="Your Name"
+      onblur="this.focus()"
+      autofocus
+    />
+
+    <script src="keyboard/keyboard.js"></script>
+    <script>
+    var inp = document.getElementById('disable-select');
+      inp.addEventListener('select', function() {
+        this.selectionStart = this.selectionEnd;
+      }, false);
+    </script>
+  </body>
+</html>

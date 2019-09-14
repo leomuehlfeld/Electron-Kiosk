@@ -1,0 +1,14 @@
+{
+  "name": "electron-kisok",
+  "version": "1.0.0",
+  "author": "leo-muehlfeld",
+  "license": "MIT",
+  "main": "src/main.js",
+  "scripts": {
+    "start": "electron ."
+  },
+  "devDependencies": {
+    "electron": "^6.0.7"
+  },
+  "dependencies": {}
+}
