@@ -1,6 +1,7 @@
 # Electron-Kiosk
-![dependencies](https://badgen.net/david/dep/leomuehlfeld/electron-kiosk)
 ![license](https://badgen.net/badge/license/MIT/blue)
+![dependencies](https://badgen.net/david/dev/leomuehlfeld/electron-kiosk)
+
 
  Simple Electron input app – originally made for Raspberrypi.
  
