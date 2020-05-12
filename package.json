@@ -1,6 +1,6 @@
 {
   "name": "electron-kisok",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "author": "leo-muehlfeld",
   "license": "MIT",
   "main": "src/main.js",
