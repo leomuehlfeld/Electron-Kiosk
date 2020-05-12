@@ -7,3 +7,9 @@
  
 > ### This repo is currently unmaintained.
 > I will start working on it again soon.
+
+## How to Run!
+```bash
+yarn install
+yarn start
+```
