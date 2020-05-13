@@ -2,8 +2,6 @@
 ![license](https://badgen.net/badge/license/MIT/blue)
 ![dependencies](https://badgen.net/david/dev/leomuehlfeld/electron-kiosk)
 
-![printer](https://user-images.githubusercontent.com/22169889/81864411-df162b00-956c-11ea-93aa-9bdcc762d6c3.jpg)
-
 An electron app displaying input-field and keyboard. Originally made for exhibitions. We had it installed at Vienna Design Week and took the useinput to print it out on a thermal printer.
 
 ## How to Run!
