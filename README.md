@@ -5,7 +5,7 @@
 ![interace-electron-kiosk](https://user-images.githubusercontent.com/22169889/81873152-679bc800-957b-11ea-91a1-a357c2dd3bf3.png)
 
 
-An electron app displaying input-field and keyboard. Originally made for exhibitions. We had it installed at Vienna Design Week and took the useinput to print it out on a thermal printer.
+An electron app displaying input-field and keyboard. Originally made for exhibitions.
 
 ## How to Run!
 If you want to run it fullscreen, set kiosk to true in src/main.js:6. If you leave it to false, electron will open a window which is 1024 x 600px.
