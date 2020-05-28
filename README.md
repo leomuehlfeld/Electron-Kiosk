@@ -8,7 +8,7 @@
 An electron app displaying input-field and keyboard. Originally made for exhibitions.
 
 ## How to Run!
-If you want to run it fullscreen, set kiosk to true in src/main.js:6. If you leave it to false, electron will open a window which is 1024 x 600px.
+If you want to run it fullscreen, set kiosk to true in `src/main.js:6`. If you leave it to false, electron will open a window which is 1024 x 600px.
 ```javascript
 kiosk: true
 ```
