@@ -1,19 +1,21 @@
 const { app, BrowserWindow } = require('electron')
 
 function createWindow () {
-  // Create the browser window.
   let win = new BrowserWindow({
-    kiosk: false,
+    // size of app window
     width: 1024,
     height: 600,
+    // kiosk "true" runs app on fullscreen without obstructions.
+    kiosk: false,
     webPreferences: {
       nodeIntegration: true
     }
   })
 
-  // and load the index.html of the app.
   win.loadFile('src/index.html')
-  // win.webContents.openDevTools()
+
+  // line below enables DevTools
+  win.webContents.openDevTools()
 }
 
 app.on('ready', createWindow)
